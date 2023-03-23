@@ -1,0 +1,9 @@
+#include<iostream.h>
+using namespace.std
+void main()
+{
+    int num,i,fact=0;
+    cout<<"enter the no.";
+    cin>>num;
+    
+}
