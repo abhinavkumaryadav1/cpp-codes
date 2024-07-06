@@ -1,4 +1,4 @@
-ṇ#include<iostream>
+#include<iostream>
 
 #define size 4
 using namespace std;
@@ -7,7 +7,7 @@ int top=-1,imp_array[size];
 void push();
 void pop();
 void show();
-ṇ
+
 int main()
 {
 int choice;

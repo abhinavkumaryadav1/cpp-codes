@@ -3,9 +3,10 @@ using namespace std;
 int main()
 {
 
-int a ,b ,c;
-cin>>a>>b;
+int a=10 ,b=10 ,c;
+
 c=a+b;
+cout<<"out is";
 cout<<c;
 
     return 0;
