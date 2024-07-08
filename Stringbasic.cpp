@@ -1,3 +1,4 @@
+//this is a basic strng program
 #include<iostream>
 using namespace std;
 
