@@ -9,7 +9,7 @@ char week[7]={'m','t','w','T','f','s','S'};
 char yearweek[365],item2;
 for(i=0;i<365;i++)
 {
-if(n<=6)ṇṇ
+if(n<=6)
 {
     yearweek[i]=week[n];
     

@@ -10,7 +10,7 @@ cin>>num1;
 cin>>num2;
 
 cout<<"the addition gives output :-";
-   return sum;
+   
    int sum=num1+num2;
  
    return sum;
