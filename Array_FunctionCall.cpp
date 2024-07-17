@@ -1,3 +1,5 @@
+//WAP to implement arrays with functions.
+
 #include<iostream>
 using namespace std;
 
