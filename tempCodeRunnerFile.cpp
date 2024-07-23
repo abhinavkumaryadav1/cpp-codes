@@ -1,2 +1,1 @@
-else
-    cout<<"";
+cout<<"the unique element is"<< ans;
