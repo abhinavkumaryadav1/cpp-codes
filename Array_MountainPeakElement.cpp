@@ -1,3 +1,5 @@
+// Q) Find the peak element or the maximum element of the mountain array.
+
 #include<iostream>
 using namespace std;
 
