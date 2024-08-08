@@ -3,7 +3,9 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "deque": "cpp",
+    "vector": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "C:/MinGW/bin/gcc.exe",
