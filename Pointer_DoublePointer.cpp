@@ -17,6 +17,6 @@ cout<<"address of ptr1 "<<&ptr1<<endl;
 cout<<" value is ptr2 "<<ptr2<<endl;
 cout<<" value corresponding to address in ptr2 "<<*ptr2<<endl;
 cout<<"the value corresponding to the address that is a value to a diffrent correspoding address that is stored in ptr2 "<<**ptr2<<endl;
-
+f
 return 0;
 }
