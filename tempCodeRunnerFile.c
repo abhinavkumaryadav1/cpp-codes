@@ -1,30 +1,52 @@
-#include<stdio.h>        
-int main()    
-{             
-    int size;
-    printf("Size of array: ");
-    scanf("%d",&size);    
-    int arr[size];
-    printf("Enter the elements ");
-    for(int a=0;a<size;a++)   
-    scanf("%d",&arr[a]);    
-    int n;
-    printf("Enter the index from where you want your array to rotate ");
-    scanf("%d",&n);        
-    printf("Array: \n");    
-    for (int a = 0; a < size; a++) {     
-        printf("%d ", arr[a]);     
-    }             
-    for(int a = 0; a < n; a++) { int b, temporary; temporary = arr[size-1]; for(b = size-1; b > 0; b--)
-            {    
-                    arr[b] = arr[b-1];    
-             }    
-            arr[0] = temporary;    
-    }            
-    printf("\n");            
-    printf("New Array: \n");    
-    for(int a = 0; a< size; a++){    
-        printf("%d ", arr[a]);    
-    }    
-    return 0;    
+#include<iostream>
+using namespacec std;
+
+func1(int arr[],int size)
+{
+int j=0,temp=0;
+
+while(j<size){
+    int count =0;
+    int i=j+1;
+    while(i<size){
+        if(arr[i]==arr[j]){
+swap(arr[i],arr[j+1]);
+++j;
+count=1;
+
+        }
+        else if(i==size-1 && arr[i]!=arr[j] && count=0){
+            cout<<"the unique element is found "<<arr[i];
+        }
+        ++i;
+    }
+    ++j;
 }
+
+
+}
+
+
+int main(){
+
+int s;
+cout<<"enter the size of the array"<<endl;
+cin>>s;
+int demo_array[s];
+
+cout<<"enter the elements of the array"<<endl;
+for (int i = 0; i < s; i++)
+{
+    cin>>demo_array[i];
+}
+
+func1(demo_array,s);
+    return 0;
+}
+
+
+
+
+
+
+
