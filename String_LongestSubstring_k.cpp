@@ -27,7 +27,7 @@ while(r<n){
 
     if (hash[s[r]]!= -1)
     {
-        if (hash[s[r]]>=l)
+        if (hash[s[r]]>=l)    //core concept if duplicate arrives.
         {
             l= hash[s[r]]+1;
         }
@@ -35,7 +35,7 @@ while(r<n){
     }
     
     len=r-l+1;
-    max_len=max(len,max_len);
+    max_len=max(len,max_len); //easy part untill duplicate arrives.
     hash[s[r]]=r;
     r++;
 }
