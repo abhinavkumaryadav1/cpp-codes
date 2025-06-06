@@ -1,1 +1,1 @@
-cout<<l<<" "<<r<<" "<<sum<<endl;
+max_len=max(max_len,r-l+1)
