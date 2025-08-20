@@ -77,7 +77,7 @@ public:
     {
       sum += nums[i];
 
-      if(m.find(sum-k) != m.end())
+      if(m.find(sum-k) != m.end()) //jo bhi sum aya hai usme se k subtract karo jo number aye wo map me hona chaiye kyunki hume 0 banana hai -> 0 banaya matlab ye subarray K ke barabar hai.
       {
         cnt += m[sum-k];
       }
